@@ -1,0 +1,13 @@
+prefix=/data/ohos/tpc_c_cplusplus/lycium/usr/zlib_1_3_1/armeabi-v7a
+exec_prefix=/data/ohos/tpc_c_cplusplus/lycium/usr/zlib_1_3_1/armeabi-v7a
+libdir=/data/ohos/tpc_c_cplusplus/lycium/usr/zlib_1_3_1/armeabi-v7a/lib
+sharedlibdir=/data/ohos/tpc_c_cplusplus/lycium/usr/zlib_1_3_1/armeabi-v7a/lib
+includedir=/data/ohos/tpc_c_cplusplus/lycium/usr/zlib_1_3_1/armeabi-v7a/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
