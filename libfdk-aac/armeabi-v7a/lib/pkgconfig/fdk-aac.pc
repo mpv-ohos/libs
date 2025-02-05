@@ -1,0 +1,11 @@
+prefix=/data/ohos/tpc_c_cplusplus/lycium/usr/libfdk-aac/armeabi-v7a
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Fraunhofer FDK AAC Codec Library
+Description: AAC codec library
+Version: 2.0.3
+Libs: -L${libdir} -lfdk-aac 
+Libs.private: 
+Cflags: -I${includedir}
